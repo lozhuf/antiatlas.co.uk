@@ -55,26 +55,34 @@ a {
     text-decoration: none;
     color: #24120F;
 }
-
 #links {
     font-family: 'Prata', serif;
     text-shadow: 0px 0px 6px #ffffff;
-    font-size: calc(12px + 3cqw);
+    font-size: calc(12px + 2cqw);
     letter-spacing: 1rem;
     color: #24120F;    
     opacity: 0.85;
     display: block;
-    margin: 10pt;
+    margin: 20pt;
     animation: fadeIn 15s;
+    transition: color 0.3s;
+}
+#links:hover { 
+    color: white;
 }
 
 #contact {
     font-family: 'Prata', serif;
     text-shadow: 0px 0px 10px #ffffff;
-    font-size: calc(12px + 2cqw);
+    font-size: calc(12px + 1.5cqw);
     letter-spacing: 1rem;
     color: #24120F;
     opacity: 0.8;
     display: block;
     animation: fadeIn 18s;
+    transition: color 0.3s;
+}
+#contact:hover { 
+    color: white;
+    /* color: #0952b3; */
 }
