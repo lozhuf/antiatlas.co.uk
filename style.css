@@ -41,7 +41,7 @@ main {
 #header {
     font-family: 'Prata', serif;
     
-    font-size: 10cqw;
+    font-size: 10vw;
     letter-spacing: 1rem;    
     text-shadow: 0px 0px 30px #ffffff;
     color: #24120F;
@@ -58,7 +58,7 @@ a {
 #links {
     font-family: 'Prata', serif;
     text-shadow: 0px 0px 6px #ffffff;
-    font-size: calc(12px + 2cqw);
+    font-size: calc(12px + 2vw);
     letter-spacing: 1rem;
     color: #24120F;    
     opacity: 0.85;
@@ -74,7 +74,7 @@ a {
 #contact {
     font-family: 'Prata', serif;
     text-shadow: 0px 0px 10px #ffffff;
-    font-size: calc(12px + 1.5cqw);
+    font-size: calc(12px + 1.5vw);
     letter-spacing: 1rem;
     color: #24120F;
     opacity: 0.8;
